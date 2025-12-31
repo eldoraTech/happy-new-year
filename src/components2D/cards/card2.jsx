@@ -92,7 +92,8 @@ export default function Card2() {
       <AnimatedWord letters={["H", "A", "P", "P", "Y"]} controls={happy} />
       <AnimatedWord letters={["N", "E", "W"]} controls={newWord} />
       <AnimatedWord letters={["Y", "E", "A", "R"]} controls={year} />
-      <AnimatedWord letters={["2", "0", "2", "5"]} controls={nums} />
+      <AnimatedWord letters={["2", "0", "2", "6"]} controls={nums} />
     </>
   );
 }
+

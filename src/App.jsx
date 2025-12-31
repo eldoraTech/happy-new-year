@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Wish_1 from "./wishes/wish1";
 import Wish_2 from "./wishes/wish2";
@@ -10,17 +10,15 @@ import Wish_7 from "./wishes/wish7";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/wish-1" element={<Wish_1 />} />
-        <Route path="/wish-2" element={<Wish_2 />} />
-        <Route path="/wish-3" element={<Wish_3 />} />
-        <Route path="/wish-4" element={<Wish_4 />} />
-        <Route path="/wish-5" element={<Wish_5 />} />
-        <Route path="/wish-6" element={<Wish_6 />} />
-        <Route path="/wish-7" element={<Wish_7 />} />
-      </Routes>
-    </Router>
+    <>
+      <Wish_1 />
+      {/* <Wish_2 /> */}
+      {/* <Wish_3 /> */}
+      {/* <Wish_4 /> */}
+      {/* <Wish_5 /> */}
+      {/* <Wish_6 /> */}
+      {/* <Wish_7 /> */}
+    </>
   );
 }
 

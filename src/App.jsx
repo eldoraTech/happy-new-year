@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Wish_1 from "./wishes/wish1";
-import Wish_2 from "./wishes/Wish2";
-import Wish_3 from "./wishes/Wish3";
-import Wish_4 from "./wishes/Wish4";
-import Wish_5 from "./wishes/Wish5";
-import Wish_6 from "./wishes/Wish6";
-import Wish_7 from "./wishes/Wish7";
+import Wish_2 from "./wishes/wish2";
+import Wish_3 from "./wishes/wish3";
+import Wish_4 from "./wishes/wish4";
+import Wish_5 from "./wishes/wish5";
+import Wish_6 from "./wishes/wish6";
+import Wish_7 from "./wishes/wish7";
 
 function App() {
   return (
